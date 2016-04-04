@@ -1,8 +1,4 @@
-#include <iostream>
-#include "Sudoku.cpp"
-
-using namespace std;
-
+#include "Sudoku.h"
 
 int main()
 {	
