@@ -112,7 +112,7 @@ void Sudoku::solve()
 	}
 	//cout<<zero<<endl;
 	
-	if(zero==81||zero>64) 
+	if(zero>64) 
 	{
 		cout<<"2"<<endl;
         return;
