@@ -82,14 +82,14 @@ void Sudoku::giveQuestion()
 	for(int i=0; i<sudokuSize; i++)
 		cout<<question[i]<<((i+1)%9==0?'\n':' ');
 }
-void Sudoku::readInstr()
-{
-	string str;
-	cin>>str;
-	for(int i=0; i<sudokuSize; i++)
-		map[i]=str[i]-'0';
+//void Sudoku::readInstr()
+//{
+//	string str;
+//	cin>>str;
+//	for(int i=0; i<sudokuSize; i++)
+//		map[i]=str[i]-'0';
 
-}
+//}
 void Sudoku::readIn()
 {
 	for(int i=0; i<sudokuSize; i++)
